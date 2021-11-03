@@ -1,0 +1,199 @@
+body {
+    font-family: 'Zen Kurenaido';
+    overflow-x: hidden;
+    background-color: #fdf2e9;
+}
+
+
+/* Scroll Bar */
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #fdf2e9;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 149, 199);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #fdf2e9;
+    /* creates padding around scroll thumb */
+}
+
+
+/* End of Scroll Bar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 6rem;
+    padding: 0 4.8rem;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+}
+
+.logo {
+    height: 150px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #cf711f;
+}
+
+.nav-link.nav-cta:link,
+.nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.nav-link.nav-cta:hover,
+.nav-link.nav-cta:active {
+    background-color: #cf711f;
+}
+
+.main-banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    -o-object-position: center;
+    object-position: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+}
+
+h1 {
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 340px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 400px;
+    color: #fff;
+}
+
+.features-card {
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.04);
+    z-index: 2;
+    border-radius: 10px;
+    margin-left: 375px;
+    margin-top: 810px;
+    position: absolute;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.icon-box {
+    -webkit-box-shadow: inset 0 2px 48px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 2px 48px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #F2FFFF;
+    padding: 30px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    border: solid 10px #FFFFFF;
+    margin-bottom: 10px;
+    height: calc(100% - 100px);
+}
+
+.icon-box img {
+    width: 45px;
+    height: 45px;
+}
+
+.col-6,
+.col-lg-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #383A4E;
+    padding: 0;
+    margin: 0;
+}
+
+.tomorrow🙂 {
+    position: absolute;
+    margin-top: 1100px;
+    padding-bottom: 30px;
+    background-image: url('/img/2.jpg');
+    color: #fdf2e9;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hehe {
+    position: absolute;
+    margin-top: 1500px;
+    padding-left: 575px;
+    font-size: 50px;
+}
